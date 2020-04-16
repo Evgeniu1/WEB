@@ -1,0 +1,17 @@
+#circle 
+{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: #786fa6;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+ }
+
+ #circle:hover
+ {
+ 	background: #ff5252;
+  	border-radius: 10px;
+  	transition-timing-function: ease-in;
+  	transition-duration: 0.5s;
+ }

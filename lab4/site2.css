@@ -1,0 +1,17 @@
+#rectangle 
+{
+      width: 200px;
+      height: 100px;
+      background: skyblue;
+      margin: 30px;
+      transition-timing-function: ease;
+      transition-duration: 2s;
+}
+
+#rectangle:hover
+{
+		transform: scale(1.2);
+  		background-color: pink;	
+  		transition-timing-function: ease-in;
+  		transition-duration: 3s;
+}

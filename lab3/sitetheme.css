@@ -1,0 +1,12 @@
+body 
+{
+  background:#EBDDDD;
+ podding:0;
+   margin : 0;
+ }
+ 
+ header , footer
+ {
+   background:#ECE0F4;
+   podding: 50x 0 ; 
+ }
