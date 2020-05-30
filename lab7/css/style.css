@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,700i,800|Raleway:100,200,300,400,500,600,700,800,900');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+img-center {
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    font-size: 43px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #060A15;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #212529;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3C3A3C;
+    padding-bottom: 15px;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 17px;
+    margin-bottom: 8px;
+}
+
+h6 {
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #6C7789;
+    font-size: 15px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+b {
+    font-size: 13px;
+}
+
+i {
+    font-size: 13px;
+    color: #A9AAAC;
+}
+
+span {
+    font-size: 12px;
+    color: gray;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading {
+    padding-bottom: 30px;
+}
+
+/* === 2.Header Section === */
+header {
+    padding: 7px 0;
+}
+
+.nav-link {
+    color: #373733 !important;
+    font-size: 13px;
+    margin: 0px 6px;
+    display: block;
+    font-weight: 600;
+    padding: 5px 5px !important;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #E8BF5D;
+    cursor: pointer;
+    color: #2D322D !important;
+    border-radius: 0;
+}
+
+/* === 3.Hero Section === */
+.hero {
+    background: url(../img/hero-img.png);
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.hero-contents {
+    padding-top: 36%;
+    padding-left: 14%;
+}
+
+.hero-contents h1 {
+    letter-spacing: 1px;
+    width: 101%;
+    margin-bottom: 0px;
+}
+
+.hero-contents h3 {
+    color: #FFFFFF;
+}
+
+.hero-introduce {
+    border-left: 2px solid #FFC28E;
+    padding-left: 12px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    font-size: 15px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-radius: 30px;
+    background-color: #E4B084;
+}
+
+.btn-hero {
+    margin-top: 12px;
+}
+
+.btn-hero:hover {
+    background-color: #E8BF5D;
+    cursor: pointer;
+    color: #111111;
+}
+
+/* === 4.About Us Section === */
+.about-us {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.about-heading {
+    width: 70%;
+    margin-bottom: 30px;
+    border-left: 2px solid #E49765;
+    padding-left: 13px;
+}
+
+.about-bg-img {
+    background: url(../img/about-bg.png) no-repeat;
+    background-size: 13% 88%;
+}
+
+/* === 5.Practise-Area Section === */
+.practise-area {
+    background-color: #110F15;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.practise-heading {
+    width: 70%;
+    margin-bottom: 30px;
+    border-left: 2px solid #E49765;
+    padding-left: 13px;
+}
+
+.practise-heading h2 {
+    color: #E3E2E0;
+}
+
+.practise-heading h6 {
+    color: #B9B9B9;
+}
+
+.Practise-bg-img {
+    background: url(../img/practise-img.png) no-repeat;
+    background-size: 13% 90%;
+}
+
+.practise-area h4 {
+    color: #DCDBE0;
+    font-weight: 400;
+}
+
+.practise-area p {
+    color: #B9B9B9;
+}
+
+.fas {
+    font-size: 33px;
+    color: #EAB288;
+    font-weight: 900;
+}
+
+/* === 6.Lawyers Section === */
+.lawyers {
+    padding-top: 60px;
+}
+
+.lawyers-heading {
+    width: 70%;
+    margin-bottom: 15px;
+    border-left: 2px solid #E49765;
+    padding-left: 13px;
+}
+
+.attorney-bg-img {
+    background: url(../img/attorney-bg.png) no-repeat;
+    background-size: 16% 114%;
+}
+
+.img-sec {
+    padding-top: 25px;
+    padding-bottom: 70px;
+}
+
+.img-contents h5 {
+    margin-bottom: 2px;
+}
+
+/* === 7.Client Section === */
+.client {
+    background: url(../img/client-bg.png);
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.client-bg-img {
+    background: url(../img/client-heading-bg.png) no-repeat;
+    background-size: 14% 98%;
+}
+
+.client-heading {
+    width: 70%;
+    margin-bottom: 15px;
+    border-left: 2px solid #E49765;
+    padding-left: 13px;
+}
+
+.client-heading h2 {
+    color: #E3E2E0;
+}
+
+.client-heading h6 {
+    color: #B9B9B9;
+}
+
+.client-img {
+    width: 72%;
+    box-shadow: 18px 18px 0px 0px #DFAD80;
+}
+
+.client-para {
+    padding-top: 47px;
+}
+
+.client-says h5 {
+    color: #E3E2E0;
+}
+
+.client-says p {
+    color: #B9B9B9;
+}
+
+.fa-quote-left {
+    font-size: 22px;
+    padding-left: 14px;
+}
+
+/* === 8.Publication Section === */
+.publication {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.publication-heading {
+    width: 70%;
+    margin-bottom: 15px;
+    border-left: 2px solid #E49765;
+    padding-left: 13px;
+}
+
+.publication-bg-img {
+    background: url(../img/publication-bg.png) no-repeat;
+    background-size: 16% 116%;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-bottom: 2px solid #EEAB7E;
+    border-radius: 0;
+    padding-bottom: 8px;
+}
+
+.text-muted {
+    padding: 6px 1px;
+}
+
+.card-title {
+    margin-bottom: 2px;
+}
+
+.fa-comments {
+    font-size: 15px;
+    color: #31190A;
+}
+
+.fa-share {
+    font-size: 15px;
+    color: #31190A;
+}
+
+.right {
+    padding-left: 39px;
+}
+
+/* === 9.Faq Section === */
+.faq-area {
+    background-color: #110F15;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.faq-heading {
+    width: 70%;
+    margin-bottom: 30px;
+    border-left: 2px solid #E49765;
+    padding-left: 13px;
+}
+
+.faq-heading h2 {
+    color: #E3E2E0;
+}
+
+.faq-heading h6 {
+    color: #B9B9B9;
+}
+
+.faq-bg-img {
+    background: url(../img/practise-img.png) no-repeat;
+    background-size: 13% 90%;
+}
+
+.faq-area h4 {
+    color: #DCDBE0;
+    font-weight: 400;
+}
+
+.left-contents p {
+    color: #FFFFFF;
+    border-bottom: 1px solid #E5B285;
+    padding-bottom: 5px;
+}
+
+.right-contents p {
+    color: #110F15;
+    line-height: 31px;
+}
+
+.right-contents {
+    background-color: #E5B285;
+    box-shadow: 0px 0px 37px 10px #3B3627;
+    border-radius: 5px;
+    padding: 32px;
+}
+
+/* === 10.Contact Section === */
+.contact {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.contact-heading {
+    width: 70%;
+    margin-bottom: 30px;
+    border-left: 2px solid #E49765;
+    padding-left: 13px;
+}
+
+.contact-bg-img {
+    background: url(../img/contact-bg.png) no-repeat;
+    background-size: 16% 101%;
+}
+
+.contact-contents {
+    box-shadow: 0px 0px 7px 0px;
+    border: none;
+    border-radius: 5px;
+    padding: 35px;
+}
+
+.form-controll {
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #7E7787;
+    padding: 14px 0px;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-controll:hover {
+    box-shadow: none;
+    outline: none;
+}
+
+.massage {
+    padding-top: 13px;
+    padding-bottom: 60px;
+}
+
+.btn-contact {
+    background-color: #E8BF5D;
+    margin-top: 15px;
+}
+
+.btn-contact:hover {
+    background-color: #DFAD80;
+}
+
+.contact-map {
+    box-shadow: -19px 19px 0px 1px #E8BF5D;
+}
+
+/*=== Footer Section ===*/
+.section {
+    background-color: #151317;
+}
+
+.copyright {
+    color: #9D9E9D;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.fab {
+    font-size: 18px;
+    color: white;
+    padding: 30px 7px;
+    transition: .5s;
+}
+
+.fab:hover {
+    color: #E8BF5D;
+    transform: rotate(20deg);
+}
+
+/*============= Theme CSS End ==============*/
+
+
+/*===== @Media Querie CSS =====*/
+
+/*==== Small devices (Mobile Device)====*/
+@media (min-width: 320px) and (max-width: 500px) {
+    .hero-contents {
+        padding-top: 1%;
+        padding-left: 10%;
+    }
+
+    .btn-hero {
+        margin-top: 11px;
+        margin-left: 19px;
+    }
+
+    .practise-heading {
+        margin-left: 16px;
+    }
+
+    .lawyers-heading {
+        margin-left: 19px;
+    }
+
+    .img-fluid {
+        padding-top: 25px;
+    }
+
+    .client-heading {
+        margin-left: 19px;
+    }
+
+    .client-img {
+        margin-bottom: 30px;
+        box-shadow: 17px 17px 0px 0px #DFAD80;
+        padding-top: 0px !important;
+    }
+
+    .publication-heading {
+        margin-left: 19px;
+    }
+
+    .right {
+        padding-left: 19px;
+    }
+
+    .faq-heading {
+        margin-left: 19px;
+    }
+
+    .contact-heading {
+        margin-left: 19px;
+    }
+
+    .contact-contents {
+        margin: 5px;
+    }
+
+    .contact-map {
+        width: 280px;
+        height: 280px;
+    }
+
+    .form-group {
+        margin-bottom: 30px;
+    }
+
+}
+
+/*==== Medium devices (Tablets)====*/
+@media (min-width: 500.01px) and (max-width: 768px) {
+    .hero-contents {
+        padding-left: 8%;
+    }
+
+    .btn-hero {
+        margin-top: 57px;
+    }
+
+    .right {
+        padding-left: 17px;
+    }
+
+    .fa-quote-left {
+        padding-left: 0px;
+    }
+
+    .right-contents {
+        padding: 12px;
+    }
+
+    .contact-contents {
+        padding: 20px;
+    }
+
+    .contact-map {
+        width: 223px;
+        height: 290px;
+    }
+}
+
+/*==== Desktop devices ====*/
+@media (min-width: 900px) and (max-width: 1200px) {
+    .right {
+        padding-left: 22px;
+    }
+
+    .right-contents {
+        padding: 35px;
+    }
+
+    .contact-map {
+        width: 300px;
+        height: 300px;
+    }
+}
